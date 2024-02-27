@@ -15,5 +15,33 @@ Uma linguagem orientada a objetos, conhecida por sua portabilidade e robustez. G
 - Desvantagens: pode ser mais complexa em comparação com outras linguagens, o que pode prolongar o tempo de desenvolvimento.
 - Aplicações usuais: é muito utilizada no desenvolvimento de aplicativos Android, em sistemas corporativos de grande escala, servidores web, aplicativos de desktop, dispositivos embarcados e IoT.
 a. Tente fazer um código mínimo em cada uma delas; 
-CÓDIGO JAVASCRIPT: print("oi professor")
-  
+CÓDIGO phyton: print("oi professor")
+Código JAVASCRIPT: <script type="text/javascript">
+function startTime()
+{
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+var s=today.getSeconds();
+// add a zero in front of numbers<10
+m=checkTime(m);
+s=checkTime(s);
+document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+t=setTimeout('startTime()',500);
+
+}
+
+function checkTime(i)
+{
+if (i<10)
+  {
+  i="0" + i;
+  }
+return i;
+}
+</script>
+
+
+<div id="txt">
+<script type="text/javascript">document.write(startTime())</script>
+</div>
