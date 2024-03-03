@@ -1,21 +1,12 @@
 1 – Explique as diferenças entre 3 linguagens de programação: a. Tente fazer um código mínimo em cada uma delas; b. Tente executar o seu código;
-1Explique as diferenças entre 3 linguagens de programção: 
-Python:
-Python é uma linguagem de programação de alto nível, conhecida pela sua simplicidade e legibilidade de código. É amplamente usada em várias áreas, incluindo desenvolvimento web, ciência de dados, inteligência artificial e automação.
-- Vantagens: oferece uma curva de aprendizado suave, uma comunidade forte e uma ampla variedade de bibliotecas e frameworks.
-- Desvantagens: tem uma execução mais lenta em comparação com linguagens compiladas, como C e C++.
-2. JavaScript
-É uma linguagem predominante no desenvolvimento web, essencial para criar páginas interativas e dinâmicas na internet.
-- Vantagens: é suportada por todos os navegadores modernos e possui uma vasta gama de frameworks e bibliotecas, como React e Node.js.
-- Desvantagens: questões de segurança e inconsistências na linguagem podem ser pontos de preocupação.
-- Aplicações usuais: é a espinha dorsal do desenvolvimento web moderno, sendo usada para criar interatividade em sites e aplicações web. Utilizada em conjunto com HTML e CSS, também serve como base para frameworks populares como Angular, React e Node.js.
-3. Java
-Uma linguagem orientada a objetos, conhecida por sua portabilidade e robustez. Geralmente, é a linguagem principal para o desenvolvimento de aplicativos Android.
-- Vantagens: é uma linguagem multiplataforma, o que significa que os programas escritos em Java podem ser executados em diferentes tipos de hardware.
-- Desvantagens: pode ser mais complexa em comparação com outras linguagens, o que pode prolongar o tempo de desenvolvimento.
-- Aplicações usuais: é muito utilizada no desenvolvimento de aplicativos Android, em sistemas corporativos de grande escala, servidores web, aplicativos de desktop, dispositivos embarcados e IoT.
+1Explique as diferenças entre 3 linguagens de programção: PHYTON, JAVASCRIPT e RUBY
+
+Se o foco for ciência de dados, aprendizado de máquina ou desenvolvimento web, Python pode ser a escolha ideal. Por outro lado, se a ênfase for em desenvolvimento web e criação de interfaces de usuário interativas, JavaScript pode ser a melhor opção.JavaScript é uma linguagem focada no desenvolvimento web e interatividade do lado do cliente, enquanto Python é uma linguagem mais versátil com aplicações em uma variedade de domínios, incluindo ciência de dados e automação de tarefas.O Ruby possui tipagem dinâmica, gerenciamento automático de memória, coletor de lixo e muitos outros recursos. É também uma linguagem totalmente OOP(programação orientada a objeto), com herança, masterclasses e tudo mais.
+
 a. Tente fazer um código mínimo em cada uma delas; 
-CÓDIGO phyton: print("oi professor")
+  CÓDIGO PHYTON: print("oi professor")
+
+
 Código JAVASCRIPT: <script type="text/javascript">
 function startTime()
 {
@@ -45,3 +36,7 @@ return i;
 <div id="txt">
 <script type="text/javascript">document.write(startTime())</script>
 </div>
+
+
+CÓDIGO RUBY: 
+puts "Hello World"
