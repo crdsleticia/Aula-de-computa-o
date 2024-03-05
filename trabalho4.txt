@@ -1,0 +1,17 @@
+Trabalho 4
+
+REPETIÇÃO:
+
+gatinhos = {"Português": "gato", "Inglês": "cat", "Francês": "chat", "Finlandês": "Kissa"}
+for chave, valor in gatinhos.items():
+    print(chave, "->", valor)
+
+Tomada de decisão: 
+# Variável Idade
+idade = 16
+
+# Condição Para Verificar a Idade
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
